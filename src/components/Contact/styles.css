@@ -1,0 +1,107 @@
+.section-contact {
+  font-family: "Poppins", "Open Sans", sans-serif;
+  
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 2rem;
+}
+
+.section-registration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.form-container {
+  border: 2px solid #be185d;
+  background-color: rgb(30 27 75);
+  padding: 3rem;
+  border-radius: 8px;
+  width: 60%;
+  color: white;
+}
+
+.registration-form {
+  color: white;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.registration-form label {
+  flex: 0 0 calc(50% - 10px);
+  margin-bottom: 15px;
+}
+
+.registration-form input,
+.registration-form textarea,
+.registration-form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 1rem;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+
+.registration-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.registration-form button {
+  background: linear-gradient(to right, #312e81, #be185d);
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.registration-form button:hover {
+  background: linear-gradient(to right, #be185d, #312e81);
+}
+
+@media (max-width: 600px) {
+  .registration-form label {
+    flex: 0 0 100%;
+  }
+}
+
+.submit {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.course {
+    color: white;
+    background-color: #312e81;
+}
+
+.select {
+    color: black;
+}
+
+.h2-contact {
+    text-align: center;
+}
+
+.input {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}

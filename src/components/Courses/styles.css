@@ -1,0 +1,96 @@
+#div-courses {
+  display: flex;
+  max-width: 90%;
+  min-width: 250px;
+  min-height: 90vh;
+  margin: auto;
+  margin-top: 20px;
+  font-family: "Poppins";
+}
+
+.div1-courses {
+  width: 40%;
+  color: white;
+}
+
+.div2-courses {
+  width: 60%;
+  margin-left: 5%;
+}
+
+/* @media (max-width: 699px) {
+  #div-courses {
+    padding: 30px;
+    display: block;
+  }
+} */
+
+#h1-courses {
+  font-family: "Poppins", "Open Sans", sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 5vw;
+  font-size: 1.6rem;
+}
+
+#span-courses {
+  font-family: "Poppins", "Open Sans", sans-serif;
+  color: aqua;
+}
+
+#btn-curriculo:hover {
+  background-color: #068ae2;
+  color: white;
+}
+
+a {
+  font-family: "Poppins";
+  font-weight: bold;
+}
+
+.edit-courses {
+  width: 13rem;
+  height: 13rem;
+  padding: 1rem;
+  border: 2px solid bisque;
+  border-radius: 10%;
+  color: bisque;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.courses-flex {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem;
+}
+
+@media (max-width: 1100px) {
+  .div1-courses {
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    padding: 1rem;
+  }
+  .div2-courses {
+    display: block;
+    margin: auto;
+    width: 100%;
+  }
+
+  #div-courses {
+    display: block;
+  }
+
+  .courses-flex {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 650px) {
+  .courses-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
