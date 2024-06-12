@@ -117,4 +117,8 @@
   .description {
     text-align: center;
   }
+
+  .section-depositions {
+    border-top: 1px solid white;
+  }
 }

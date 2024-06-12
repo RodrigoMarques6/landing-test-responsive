@@ -71,6 +71,10 @@
   .registration-form label {
     flex: 0 0 100%;
   }
+
+  .section-contact {
+    border-top: 1px solid white;
+  }
 }
 
 .submit {

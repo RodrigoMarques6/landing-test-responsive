@@ -86,5 +86,6 @@ img {
 
   img {
     height: 55%;
+    border-bottom: 1px solid white;
   }
 }
