@@ -95,6 +95,7 @@
   .description {
     width: 100%;
     margin-bottom: 1rem;
+    text-align: center;
   }
 
   .carousel {
@@ -111,5 +112,9 @@
 
   .carousel-item h2 {
     font-size: 0.9rem;
+  }
+
+  .description {
+    text-align: center;
   }
 }
