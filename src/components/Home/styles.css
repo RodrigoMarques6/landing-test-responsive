@@ -32,3 +32,59 @@ img {
   font-family: "Poppins", "Open Sans", sans-serif;
   color: aqua;
 }
+
+@media only screen and (max-width: 768px) {
+  .section-home {
+    width: 100%;
+    height: 75vh;
+  }
+
+  .div-home {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .h1-home {
+    font-size: 2rem;
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  .p-home {
+    font-size: 1.2rem;
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  img {
+    height: 70%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .section-home {
+    width: 100%;
+    height: 60vh;
+  }
+
+  .div-home {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .h1-home {
+    font-size: 2rem;
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  .p-home {
+    font-size: 1.2rem;
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  img {
+    height: 55%;
+  }
+}
