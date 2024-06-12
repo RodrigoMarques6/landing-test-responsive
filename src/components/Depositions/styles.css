@@ -14,27 +14,28 @@
 #div-depositions {
   display: flex;
   width: 90%;
-  height: 50vh;
   padding: 2rem;
+  box-sizing: border-box;
 }
 
 .section-depositions {
-  height: 90vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-family: "Poppins";
+  overflow: hidden;
 }
 
 .carousel {
   overflow: hidden;
   margin-left: 1rem;
   position: relative;
-
   background: white;
   border-radius: 10px;
   width: 60%;
+  height: 100%;
 }
 
 .description {
@@ -83,4 +84,32 @@
 
 #feedback {
   color: aqua;
+}
+
+@media only screen and (max-width: 768px) {
+  #div-depositions {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .description {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .carousel {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .carousel {
+    margin: auto;
+    width: 100%;
+  }
+
+  .carousel-item h2 {
+    font-size: 0.9rem;
+  }
 }
